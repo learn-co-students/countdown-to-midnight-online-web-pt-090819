@@ -9,7 +9,7 @@ describe 'LOOPS' do
     it "outputs '<n> SECOND(S)!' string to STDOUT for each count" do
       expect { countdown(10) }.to output(countdown_output).to_stdout
     end
-
+    "#{number} SECOND(0)!"
     it 'returns HAPPY NEW YEAR!' do
       expect(countdown(12)).to eq "HAPPY NEW YEAR!"
     end
